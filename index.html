@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BCA Placement Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 BCA Placement Journey 2026-27</h1>
+    
+    <div class="stats">
+      <div class="card"><h2 id="dsaCount">0</h2><p>DSA Solved</p></div>
+      <div class="card"><h2 id="appCount">0</h2><p>Applications</p></div>
+      <div class="card"><h2 id="interviewCount">0</h2><p>Interviews</p></div>
+    </div>
+
+    <div class="forms">
+      <input type="text" id="company" placeholder="Company Name - Ex: TCS">
+      <select id="status">
+        <option>Applied</option>
+        <option>OA Cleared</option>
+        <option>Interview</option>
+        <option>Selected</option>
+        <option>Rejected</option>
+      </select>
+      <button onclick="addApplication()">Add</button>
+    </div>
+
+    <ul id="list"></ul>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
